@@ -2,12 +2,6 @@ from random import choice
 import os
 def clear():
     return os.system('cls' if os.name == 'nt' else 'clear')
-
-class Card:
-    def __init__(self, suit, name, value):
-        self.suit = suit
-        self.name = name
-        self.value = value
          
 class Deck:
     def __init__(self):
